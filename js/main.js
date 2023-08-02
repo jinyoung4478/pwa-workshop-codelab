@@ -14,15 +14,13 @@
  limitations under the License.
  */
 
-// import swURL from 'sw:../service-worker.js';
-
 // Register the service worker
 if ('serviceWorker' in navigator) {
   // Wait for the 'load' event to not block other work
   window.addEventListener('load', async () => {
     // Try to register the service worker.
     try {
-      const reg = await navigator.serviceWorker.register('http://127.0.0.1:5500/service-worker.js');
+      const reg = await navigator.serviceWorker.register('https://jinyoung4478.github.io/pwa-workshop-codelab/service-worker.js');
       console.log('Service worker registered! 😎', reg);
     } catch (err) {
       console.log('😥 Service worker registration failed: ', err);

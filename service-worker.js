@@ -13,7 +13,6 @@ Copyright 2021 Google LLC
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-
 // Choose a cache name
 const cacheName = 'cache-v1';
 // List the files to precache
