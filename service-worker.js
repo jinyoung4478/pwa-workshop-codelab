@@ -13,10 +13,11 @@ Copyright 2021 Google LLC
  See the License for the specific language governing permissions and
  limitations under the License.
  */
+
 // Choose a cache name
 const cacheName = 'cache-v1';
 // List the files to precache
-const precacheResources = ['/', '/index.html', '/css/style.css', '/js/main.js', '/js/app/editor.js', '/js/lib/actions.js'];
+const precacheResources = ['/pwa-workshop-codelab/', '/pwa-workshop-codelab/index.html', '/pwa-workshop-codelab/css/style.css', '/pwa-workshop-codelab/js/main.js', '/pwa-workshop-codelab/js/app/editor.js', '/pwa-workshop-codelab/js/lib/actions.js'];
 
 // When the service worker is installing, open the cache and add the precache resources to it
 self.addEventListener('install', (event) => {
