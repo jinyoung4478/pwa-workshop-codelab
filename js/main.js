@@ -30,11 +30,11 @@ if ('serviceWorker' in navigator) {
 
 window.addEventListener('DOMContentLoaded', async () => {
   // Set up the editor
-  const { Editor } = await import('./app/editor.js');
+  const { Editor } = await import('https://jinyoung4478.github.io/pwa-workshop-codelab/app/editor.js');
   const editor = new Editor(document.body);
 
   // Set up the menu
-  const { Menu } = await import('./app/menu.js');
+  const { Menu } = await import('https://jinyoung4478.github.io/pwa-workshop-codelab/app/menu.js');
   new Menu(document.querySelector('.actions'), editor);
 
   // Set the initial state in the editor

@@ -14,7 +14,7 @@
  limitations under the License.
 */
 
-import { Actions } from '../lib/actions.js';
+import { Actions } from 'https://jinyoung4478.github.io/pwa-workshop-codelab/lib/actions.js';
 
 export class Menu extends Actions {
   /**
