@@ -13,8 +13,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-
-const button = document.getElementById('test');
+console.log('start');
 
 function showAndroidToast() {
   console.log('clicked');
@@ -22,6 +21,7 @@ function showAndroidToast() {
   Android.showToast();
 }
 
+const button = document.getElementById('test');
 button.addEventListener("click", showAndroidToast);
 
 // Register the service worker
