@@ -14,6 +14,16 @@
  limitations under the License.
  */
 
+const button = document.getElementById('test');
+
+function showAndroidToast() {
+  console.log('clicked');
+  console.log(Android);
+  Android.showToast();
+}
+
+button.addEventListener("click", showAndroidToast);
+
 // Register the service worker
 if ('serviceWorker' in navigator) {
   // Wait for the 'load' event to not block other work
@@ -42,3 +52,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
   editor.setContent(defaultText);
 });
+
+
+
+
