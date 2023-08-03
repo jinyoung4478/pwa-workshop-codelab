@@ -17,11 +17,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+    <link rel="icon" type="/pwa-workshop-codelab/image/svg+xml" href="/pwa-workshop-codelab/images/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PWA Edit</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <script type="module" src="/js/main.js"></script>
+    <link rel="stylesheet" href="/pwa-workshop-codelab/css/style.css" />
+    <script type="module" src="/pwa-workshop-codelab/js/main.js"></script>
   </head>
   <body class="dark">
     <button id="install" aria-label="Install">
@@ -38,7 +38,6 @@
       </svg>
     </button>
     <div class="actions">
-      <button>123123</button>
       <button class="actions--action actions--toggle" aria-label="Open actions" aria-expanded="false" aria-haspopup="true" aria-controls="actions-menu" id="test" onclick="showAndroidToast()">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="actions--icon" aria-hidden="true">
           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" />
@@ -87,7 +86,7 @@
         </li>
       </ul>
     </div>
-    <script>
+       <script>
       const button = document.getElementById('test');
       button.addEventListener("click", showAndroidToast);
 
