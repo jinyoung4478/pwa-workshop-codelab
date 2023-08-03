@@ -18,7 +18,7 @@ console.log('start');
 function showAndroidToast() {
   console.log('clicked');
   console.log(Android);
-  Android.showToast();
+  Android.showToast("Toast!");
 }
 
 const button = document.getElementById('test');
